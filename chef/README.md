@@ -5,7 +5,7 @@ Chef をいきなり書くのは慣れないと難しいです。そこで、手
 HAProxy を手動でインストールしようとすると、以下のようなコマンドになります。
 
 ```shell
-yum install -y make gcc gcc-c++
+yum install -y make gcc gcc-c++ pcre-devel openssl-devel zlib-devel
 curl http://www.haproxy.org/download/1.6/src/haproxy-1.6.9.tar.gz -o /tmp/haproxy-1.6.9.tar.gz
 tar zxf haproxy-1.6.9.tar.gz
 cd haproxy-1.6.9
