@@ -210,7 +210,7 @@ end
 
 ```ruby
 # haproxy/attributes/default.rb
-default[:haproxy][:version] = {
+default[:haproxy] = {
   :version => "1.6.9",
 }
 ```
@@ -261,7 +261,7 @@ end
 
 ```ruby
 # haproxy/attributes/default.rb
-default[:haproxy][:version] = {
+default[:haproxy] = {
   :version    => "1.6.9",
   :stats_bind => "localhost:8088",
 }
